@@ -36,7 +36,7 @@ class NoteItem extends StatelessWidget {
                 "Bulid career with is Mohamed Shawali",
                 style: TextStyle(
                   color: Colors.black.withOpacity(.5),
-                  fontSize: 16,
+                  fontSize: 14,
                 ),
               ),
             ),
@@ -55,7 +55,7 @@ class NoteItem extends StatelessWidget {
               "October 1, 10",
               style: TextStyle(
                 color: Colors.black.withOpacity(.5),
-                fontSize: 16,
+                fontSize: 15,
               ),
             ),
           ),
