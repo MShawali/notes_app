@@ -16,7 +16,9 @@ class NoteItem extends StatelessWidget {
         Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) {
-              return const EditNotesView();
+              return EditNotesView(
+                note: noteModel,
+              );
             },
           ),
         );

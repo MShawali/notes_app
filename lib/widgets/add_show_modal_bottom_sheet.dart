@@ -18,10 +18,11 @@ class AddShowModalBottomSheet extends StatelessWidget {
           if (state is AddNoteFailure) {}
 
           if (state is AddNoteSuccess) {
+              BlocProvider.of<NotesCubit>(context).fatchAllNotes();
             Navigator.pop(context);
           }
 
-          BlocProvider.of<NotesCubit>(context).fatchAllNotes();
+        
         },
         builder: (context, state) {
           return AbsorbPointer(
